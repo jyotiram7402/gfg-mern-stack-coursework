@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filter Examples</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            width: 250px;
+            height: 180px;
+            margin: 10px;
+        }
+
+        .grayscale {
+            filter: grayscale(100%);
+        }
+
+        .blur {
+            filter: blur(3px);
+        }
+
+        .brightness {
+            filter: brightness(150%);
+        }
+
+        .contrast {
+            filter: contrast(200%);
+        }
+
+        .invert {
+            filter: invert(100%);
+        }
+
+        .opacity {
+            filter: opacity(50%);
+        }
+
+        .saturate {
+            filter: saturate(300%);
+        }
+
+        .sepia {
+            filter: sepia(100%);
+        }
+
+        .hue-rotate {
+            filter: hue-rotate(180deg);
+        }
+
+        .drop-shadow {
+            filter: drop-shadow(8px 8px 5px gray);
+        }
+
+        .multiple {
+            filter: grayscale(50%) blur(1px) brightness(120%);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CSS Filter Property Examples</h1>
+        <p>Using the same image with different filter effects.</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Original Image</h2>
+            <img src="https://picsum.photos/300/200" alt="Random Image">
+        </section>
+
+        <section>
+            <h2>Grayscale</h2>
+            <img src="https://picsum.photos/300/200" alt="Grayscale" class="grayscale">
+        </section>
+
+        <section>
+            <h2>Blur</h2>
+            <img src="https://picsum.photos/300/200" alt="Blur" class="blur">
+        </section>
+
+        <section>
+            <h2>Brightness</h2>
+            <img src="https://picsum.photos/300/200" alt="Brightness" class="brightness">
+        </section>
+
+        <section>
+            <h2>Contrast</h2>
+            <img src="https://picsum.photos/300/200" alt="Contrast" class="contrast">
+        </section>
+
+        <section>
+            <h2>Invert</h2>
+            <img src="https://picsum.photos/300/200" alt="Invert" class="invert">
+        </section>
+
+        <section>
+            <h2>Opacity</h2>
+            <img src="https://picsum.photos/300/200" alt="Opacity" class="opacity">
+        </section>
+
+        <section>
+            <h2>Saturate</h2>
+            <img src="https://picsum.photos/300/200" alt="Saturate" class="saturate">
+        </section>
+
+        <section>
+            <h2>Sepia</h2>
+            <img src="https://picsum.photos/300/200" alt="Sepia" class="sepia">
+        </section>
+
+        <section>
+            <h2>Hue Rotate</h2>
+            <img src="https://picsum.photos/300/200" alt="Hue Rotate" class="hue-rotate">
+        </section>
+
+        <section>
+            <h2>Drop Shadow</h2>
+            <img src="https://picsum.photos/300/200" alt="Drop Shadow" class="drop-shadow">
+        </section>
+
+        <section>
+            <h2>Multiple Filters</h2>
+            <img src="https://picsum.photos/300/200" alt="Multiple Filters" class="multiple">
+        </section>
+
+        <section>
+            <h2>DPI and PPI Note</h2>
+            <p>
+                DPI (Dots Per Inch) and PPI (Pixels Per Inch) are image resolution
+                properties. They cannot be changed using HTML or CSS. To modify DPI/PPI,
+                you must edit the image using software such as Photoshop, GIMP, or other
+                image editing tools.
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>
